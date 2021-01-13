@@ -1,10 +1,21 @@
----
-title: 首頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首頁</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="container my-9">
+    <h1 class="title pb-2 mb-9">Joanne<br>Chen</h1>
+    <img src="assets/images/photo.png">
+  </header>
+
+  
 <section class="container mb-10">
   <h2 class="mb-2 pb-1 border-bottom border-dark">個人資料<span class="ml-2 text-danger h3 font-weight-bold">PROFILE</span></h2>
   <ul class="h3">
@@ -76,3 +87,27 @@ current: index
     </li>
   </ul>
 </section>
+
+
+  <footer class="pt-4 pb-6 bg-primary text-white text-center">
+    <div class="container">
+      <h2 class="mb-5 pb-1 border-bottom border-secondary">聯絡方式<span class="ml-2 h3 font-weight-bold">CONTACT METHOD</span></h2>
+      <ul class="h3">
+        <li class="mb-2"><a href="mailto:xxxd@hexschool.com" class="text-white">Mail：xxxd@hexschool.com</a></li>
+        <li class="mb-2"><a href="tel:+0910123456" class="text-white">Phone：0910123456</a></li>
+        <li class="mb-2">Kaohsiung, Taiwan</li>
+        <li class="mb-2"><a href="https://www.behance.net/xxxdddddd" class="text-white">作品連結：https://www.behance.net/xxxdddddd</a></li>
+        <li class="social-media">
+          <a href="" class="d-inline-block mr-4"><img src="assets/images/fb.svg"></a>
+          <a href="" class="d-inline-block mr-4"><img src="assets/images/ig.svg"></a>
+          <a href="" class="d-inline-block"><img src="assets/images/line.svg"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
